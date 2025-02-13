@@ -25,6 +25,23 @@ public class Git {
 		s.studentid();
 		s.studentnumber();
 		s.location();
+
+		List<Object> s=new ArrayList<>();
+	
+	   s.add("saranya");//String->0
+	   s.add(12);//int-1
+	   s.add('A');//char-2
+	   s.add(true);//boolean-3
+	   s.add(0.1);//float-4
+	   s.add(9876543212l);//long-5
+	   System.out.println("s Object:-"+s);
+	   
+	   
+	 Object object = s.get(1);
+	 System.out.println("get:-"+object);
+	 
+	 int size = s.size();
+	 System.out.println("size:-"+size);
 		System.out.println(i+","+i)
 
 		
