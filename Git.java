@@ -13,10 +13,15 @@ public class Git {
 		System.out.println(9876543211l);
 	}
 
+	public void location(){
+		Syste.out.println("chennai");
+	}
 	public static void main(String[] args) {
 		Git s=new Git();
 		s.studentname();
 		s.studentid();
 		s.studentnumber();
+
+		
 	}
 }
