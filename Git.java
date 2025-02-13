@@ -16,11 +16,16 @@ public class Git {
 	public void location(){
 		Syste.out.println("chennai");
 	}
+      int i=10;
+	intj=20;
+	
 	public static void main(String[] args) {
 		Git s=new Git();
 		s.studentname();
 		s.studentid();
 		s.studentnumber();
+		s.location();
+		System.out.println(i+","+i)
 
 		
 	}
